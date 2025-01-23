@@ -14,49 +14,39 @@ const Signup = () => {
   const [avatar, setAvatar] = useState(null);
   const [errors, setErrors] = useState({});
 
-
   const handleFileSubmit = (e) => {
     const file = e.target.files[0];
     if (file) {
-      const filePath = URL.createObjectURL(file);
-      console.log("File path:", filePath);
-      setAvatar(file);
+      setAvatar(file); // Set the selected file
     }
   };
-
 
   const validateFields = () => {
     const nameError = ValidationFormObject.validteName(name);
     const emailError = ValidationFormObject.validteEmail(email);
     const passwordError = ValidationFormObject.validtePass(password);
 
-
     const newErrors = {};
     if (nameError !== true) newErrors.name = nameError;
     if (emailError !== true) newErrors.email = emailError;
     if (passwordError !== true) newErrors.password = passwordError;
 
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0; // Return true if no errors
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
 
     if (!validateFields()) {
       return; // Stop submission if validation fails
     }
 
-
     const newForm = new FormData();
-    newForm.append("file", avatar);
+    newForm.append("file", avatar); // Send file as "file"
     newForm.append("name", name);
     newForm.append("email", email);
     newForm.append("password", password);
-
 
     const config = {
       headers: {
@@ -65,16 +55,16 @@ const Signup = () => {
       },
     };
 
-
-
-
-//axios request
-    axios.post("http://localhost:8000/api/v2/user/create-user", newForm, config).then((res)=>{
-      console.log(res.data);
-    }).catch((err)=>{
-      console.log(err);
-    })
-};
+    // Axios request to backend
+    axios
+      .post("http://localhost:8000/api/v2/user/create-user", newForm, config)
+      .then((res) => {
+        console.log(res.data); // Success response from server
+      })
+      .catch((err) => {
+        console.error(err.response ? err.response.data : err.message); // Error handling
+      });
+  };
 
 
   return (
@@ -111,7 +101,6 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <label
                 htmlFor="email"
@@ -135,7 +124,6 @@ const Signup = () => {
                 )}
               </div>
             </div>
-
 
             <div>
               <label
@@ -174,7 +162,6 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <label
                 htmlFor="avatar"
@@ -209,16 +196,14 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <button
-                type="submit"
+                type="submit" onClick={handleSubmit}
                 className="group relative w-full h-[40px] flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
               >
                 Submit
               </button>
             </div>
-
 
             <div className="flex items-center w-full">
               <h4>Already have an account?</h4>
@@ -232,6 +217,5 @@ const Signup = () => {
     </div>
   );
 };
-
 
 export default Signup;
