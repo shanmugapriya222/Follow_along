@@ -137,7 +137,7 @@ In this milestone, we implemented a backend endpoint for user login, focusing on
 * Backend endpoint for user login
 * Bcrypt for password hashing
 * Database for storing user records
- Milestone 8: Frontend Card Component and Homepage Design
+## Milestone 8: Frontend Card Component and Homepage Design
 
 ## Learning Goals
 * Create a card component
