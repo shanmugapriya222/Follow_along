@@ -1,19 +1,19 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom";
-import { LoginPage,SignupPage } from "./Routes";
+import React from 'react'
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import {LoginPage,SignupPage,Home} from "./Routes";
+import "./App.css";
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/login" element={<LoginPage/>}/>
-          <Route path="/signup" element={<SignupPage/>}/>
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/login' element={<LoginPage/>}/>
+      <Route path="/signup" element={<SignupPage />} />
+    </Routes>
+    </BrowserRouter>
+    
+  )
 }
 
-export default App;
+export default App
