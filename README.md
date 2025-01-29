@@ -146,3 +146,11 @@ In this milestone, we implemented a backend endpoint for user login, focusing on
 ## Steps
 1. Create card component with props (name, image, price)
 2. Design homepage layout with grid or flexbox
+
+# Milestone 9: Product Form Creation
+## Overview
+In this milestone, we created a frontend form for taking product input details and multiple images.
+
+## Key Features
+- Created a form to input product details
+- Added functionality to upload multiple images
