@@ -166,4 +166,14 @@ This milestone covers creating a Mongoose schema for products and an endpoint to
 * Create a POST endpoint to receive and validate product data
 * Save product details to MongoDB
 
+# Milestone 11 - Dynamic Product Display
+## Overview
+
+* Write an Endpoint: Create an API endpoint to fetch all product data from MongoDB.
+* Fetch Data in Frontend: Implement a function in the frontend to retrieve this data from the endpoint.
+* Display Data Dynamically: Pass the fetched data to the Product Card component to display each product dynamically on the homepage.
+# Learning Goals
+
+* Learn how to extract and send data from a backend (MongoDB) to the frontend.
+* Understand how to receive and display data dynamically in React components.
 
