@@ -187,3 +187,12 @@ In this milestone, we focused on creating an endpoint to fetch and display produ
 -Frontend Integration: Wrote a function to send a request to the backend and receive the user-specific products data.
 -Dynamic Data Rendering: Displayed the retrieved products dynamically on the frontend using the product card component.
 -Data Filtering: Implemented filtering logic on the backend to ensure that only products tied to the authenticated user's email are sent to the client.
+
+# Milestone 13: Editing User Products
+
+In this milestone, we added functionality for users to edit their uploaded products.
+
+## Key Achievements:
+Edit Button: Added an edit button to product cards.
+Autofill Form: Pre-filled the form with existing product details for easy editing.
+Backend Update: Created an endpoint to update product details in MongoDB.
