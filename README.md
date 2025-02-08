@@ -205,3 +205,12 @@ In this milestone, we added the functionality to delete products.
 Delete Button: Added a delete button to the product card.
 Backend Endpoint: Created an endpoint to delete products from MongoDB using the product ID.
 Frontend Integration: Enabled the frontend to send the product ID to the backend for deletion when the delete button is clicked.
+
+# Milestone 15: Creating and Integrating a Navbar
+
+In this milestone, we focused on creating and integrating a reusable Navbar component to enhance the navigation experience in our application.
+
+## Key Achievements:
+- *Navbar Component*: Created a Navbar component with links to all pages, including Home, My Products, Add Product, and Cart.
+- *Responsive Design*: Made the Navbar responsive, ensuring it looks good on all screen sizes.
+- *Frontend Integration*: Integrated the Navbar component into all pages to enable smooth and easy navigation between different sections of the app.
