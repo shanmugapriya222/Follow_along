@@ -211,6 +211,15 @@ Frontend Integration: Enabled the frontend to send the product ID to the backend
 In this milestone, we focused on creating and integrating a reusable Navbar component to enhance the navigation experience in our application.
 
 ## Key Achievements:
-- *Navbar Component*: Created a Navbar component with links to all pages, including Home, My Products, Add Product, and Cart.
-- *Responsive Design*: Made the Navbar responsive, ensuring it looks good on all screen sizes.
-- *Frontend Integration*: Integrated the Navbar component into all pages to enable smooth and easy navigation between different sections of the app.
+Navbar Component: Created a Navbar component with links to all pages, including Home, My Products, Add Product, and Cart.
+Responsive Design: Made the Navbar responsive, ensuring it looks good on all screen sizes.
+Frontend Integration: Integrated the Navbar component into all pages to enable smooth and easy navigation between different sections of the app.
+
+# Milestone 16: Creating a Product Info Page
+
+In this milestone, we focused on creating a product info page that displays detailed product data, along with options to select the quantity and add the product to the cart.
+
+##  Key Achievements:
+Product Info Page: Created a new page to display all relevant product details, such as name, description, and price.
+Quantity Selection: Implemented functionality to select the quantity of the product before adding it to the cart.
+Add to Cart Button: Added an "Add to Cart" button that allows users to add selected products to their cart.
