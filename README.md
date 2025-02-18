@@ -233,3 +233,11 @@ In this milestone, you'll implement cart functionality in an e-commerce app. You
 Updated User Schema: Added a cart field to store product details.
 Created API Endpoint: Developed an endpoint to add products to the cart.
 Database Interaction: Enabled saving and retrieving cart data for users.
+
+# Milestone 18 Overview: Backend Endpoint for Cart Page
+
+In Milestone 18, you'll create a backend endpoint to fetch and display all the products in a user's cart. This endpoint will allow the cart page to request and receive the cart data based on the user's email.
+
+## Key Achievements:
+Backend Endpoint for Cart Page: Developed an endpoint to handle requests from the cart page.
+Fetch Cart Products: Created functionality to retrieve all products in the cart for a specific user using their email.
