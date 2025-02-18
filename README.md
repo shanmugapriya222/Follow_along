@@ -223,3 +223,13 @@ In this milestone, we focused on creating a product info page that displays deta
 Product Info Page: Created a new page to display all relevant product details, such as name, description, and price.
 Quantity Selection: Implemented functionality to select the quantity of the product before adding it to the cart.
 Add to Cart Button: Added an "Add to Cart" button that allows users to add selected products to their cart.
+
+# Milestone 17 Overview: Add Products to Cart
+
+In this milestone, you'll implement cart functionality in an e-commerce app. You will update the user schema to store cart items and create an API endpoint to add products to the cart in the database.
+
+## Key Achievements:
+
+Updated User Schema: Added a cart field to store product details.
+Created API Endpoint: Developed an endpoint to add products to the cart.
+Database Interaction: Enabled saving and retrieving cart data for users.
