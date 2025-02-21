@@ -241,3 +241,14 @@ In Milestone 18, you'll create a backend endpoint to fetch and display all the p
 ## Key Achievements:
 Backend Endpoint for Cart Page: Developed an endpoint to handle requests from the cart page.
 Fetch Cart Products: Created functionality to retrieve all products in the cart for a specific user using their email.
+
+---
+
+# Milestone 19: Cart Page UI with Quantity Adjustments
+
+In this milestone, we focused on building the frontend UI for the cart page and adding functionality to adjust product quantities.
+
+## Key Achievements:
+- Cart Page UI: Created a frontend cart page that displays all products with their name, image, price, and quantity.
+- Quantity Adjustment: Added buttons to increase and decrease the quantity of each product in the cart.
+- Backend Endpoint: Developed an API endpoint to update the quantity of products in the cart.
