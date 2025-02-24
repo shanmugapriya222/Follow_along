@@ -161,21 +161,20 @@ In this milestone, we created a frontend form for taking product input details a
 This milestone covers creating a Mongoose schema for products and an endpoint to store product details in MongoDB.
 
 ## Learning Objectives
-
-* Write a product schema with proper validation
-* Create a POST endpoint to receive and validate product data
-* Save product details to MongoDB
+- Write a product schema with proper validation
+- Create a POST endpoint to receive and validate product data
+- Save product details to MongoDB
 
 # Milestone 11 - Dynamic Product Display
 ## Overview
 
-* Write an Endpoint: Create an API endpoint to fetch all product data from MongoDB.
-* Fetch Data in Frontend: Implement a function in the frontend to retrieve this data from the endpoint.
-* Display Data Dynamically: Pass the fetched data to the Product Card component to display each product dynamically on the homepage.
-# Learning Goals
+- Write an Endpoint: Create an API endpoint to fetch all product data from MongoDB.
+- Fetch Data in Frontend: Implement a function in the frontend to retrieve this data from the endpoint.
+- Display Data Dynamically: Pass the fetched data to the Product Card component to display each product dynamically on the homepage.
 
-* Learn how to extract and send data from a backend (MongoDB) to the frontend.
-* Understand how to receive and display data dynamically in React components.
+# Learning Goals
+- Learn how to extract and send data from a backend (MongoDB) to the frontend.
+- Understand how to receive and display data dynamically in React components.
 
 # Milestone 12: Displaying User-Specific Products
 ## Overview
@@ -183,10 +182,10 @@ This milestone covers creating a Mongoose schema for products and an endpoint to
 In this milestone, we focused on creating an endpoint to fetch and display products specific to a user based on their email, and rendering that data dynamically on the frontend.
 
 ## Key Achievements:
--Endpoint for Product Retrieval: Created an API endpoint to fetch all products associated with a user's email from MongoDB.
--Frontend Integration: Wrote a function to send a request to the backend and receive the user-specific products data.
--Dynamic Data Rendering: Displayed the retrieved products dynamically on the frontend using the product card component.
--Data Filtering: Implemented filtering logic on the backend to ensure that only products tied to the authenticated user's email are sent to the client.
+- Endpoint for Product Retrieval: Created an API endpoint to fetch all products associated with a user's email from MongoDB.
+- Frontend Integration: Wrote a function to send a request to the backend and receive the user-specific products data.
+- Dynamic Data Rendering: Displayed the retrieved products dynamically on the frontend using the product card component.
+- Data Filtering: Implemented filtering logic on the backend to ensure that only products tied to the authenticated user's email are sent to the client.
 
 # Milestone 13: Editing User Products
 
@@ -202,27 +201,27 @@ Backend Update: Created an endpoint to update product details in MongoDB.
 In this milestone, we added the functionality to delete products.
 
 ## Key Achievements:
-Delete Button: Added a delete button to the product card.
-Backend Endpoint: Created an endpoint to delete products from MongoDB using the product ID.
-Frontend Integration: Enabled the frontend to send the product ID to the backend for deletion when the delete button is clicked.
+- Delete Button: Added a delete button to the product card.
+- Backend Endpoint: Created an endpoint to delete products from MongoDB using the product ID.
+- Frontend Integration: Enabled the frontend to send the product ID to the backend for deletion when the delete button is clicked.
 
 # Milestone 15: Creating and Integrating a Navbar
 
 In this milestone, we focused on creating and integrating a reusable Navbar component to enhance the navigation experience in our application.
 
 ## Key Achievements:
-Navbar Component: Created a Navbar component with links to all pages, including Home, My Products, Add Product, and Cart.
-Responsive Design: Made the Navbar responsive, ensuring it looks good on all screen sizes.
-Frontend Integration: Integrated the Navbar component into all pages to enable smooth and easy navigation between different sections of the app.
+- Navbar Component: Created a Navbar component with links to all pages, including Home, My Products, Add Product, and Cart.
+- Responsive Design: Made the Navbar responsive, ensuring it looks good on all screen sizes.
+- Frontend Integration: Integrated the Navbar component into all pages to enable smooth and easy navigation between different sections of the app.
 
 # Milestone 16: Creating a Product Info Page
 
 In this milestone, we focused on creating a product info page that displays detailed product data, along with options to select the quantity and add the product to the cart.
 
 ##  Key Achievements:
-Product Info Page: Created a new page to display all relevant product details, such as name, description, and price.
-Quantity Selection: Implemented functionality to select the quantity of the product before adding it to the cart.
-Add to Cart Button: Added an "Add to Cart" button that allows users to add selected products to their cart.
+- Product Info Page: Created a new page to display all relevant product details, such as name, description, and price.
+- Quantity Selection: Implemented functionality to select the quantity of the product before adding it to the cart.
+- Add to Cart Button: Added an "Add to Cart" button that allows users to add selected products to their cart.
 
 # Milestone 17 Overview: Add Products to Cart
 
@@ -230,17 +229,17 @@ In this milestone, you'll implement cart functionality in an e-commerce app. You
 
 ## Key Achievements:
 
-Updated User Schema: Added a cart field to store product details.
-Created API Endpoint: Developed an endpoint to add products to the cart.
-Database Interaction: Enabled saving and retrieving cart data for users.
+- Updated User Schema: Added a cart field to store product details.
+- Created API Endpoint: Developed an endpoint to add products to the cart.
+- Database Interaction: Enabled saving and retrieving cart data for users.
 
 # Milestone 18 Overview: Backend Endpoint for Cart Page
 
 In Milestone 18, you'll create a backend endpoint to fetch and display all the products in a user's cart. This endpoint will allow the cart page to request and receive the cart data based on the user's email.
 
 ## Key Achievements:
-Backend Endpoint for Cart Page: Developed an endpoint to handle requests from the cart page.
-Fetch Cart Products: Created functionality to retrieve all products in the cart for a specific user using their email.
+- Backend Endpoint for Cart Page: Developed an endpoint to handle requests from the cart page.
+- Fetch Cart Products: Created functionality to retrieve all products in the cart for a specific user using their email.
 
 ---
 
@@ -252,3 +251,13 @@ In this milestone, we focused on building the frontend UI for the cart page and 
 - Cart Page UI: Created a frontend cart page that displays all products with their name, image, price, and quantity.
 - Quantity Adjustment: Added buttons to increase and decrease the quantity of each product in the cart.
 - Backend Endpoint: Developed an API endpoint to update the quantity of products in the cart.
+
+# Milestone 20: Profile Page UI with User Data Display
+
+In this milestone, we focused on building the frontend UI for the user profile page and writing a backend endpoint to retrieve and display user data.
+
+## Key Achievements:
+- Profile Page UI: Designed a frontend profile page that displays the user's profile photo, name, email, and address.
+- User Data Display: The profile page includes sections for the user's personal info (photo, name, email) and a separate section for addresses.
+- Address Management: Added a button to allow users to add a new address. If no address is found, a "No address found" message is displayed.
+- Backend Endpoint: Developed an API endpoint to send user data, including the profile photo, name, email, and address information.
