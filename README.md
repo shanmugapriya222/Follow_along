@@ -261,3 +261,12 @@ In this milestone, we focused on building the frontend UI for the user profile p
 - User Data Display: The profile page includes sections for the user's personal info (photo, name, email) and a separate section for addresses.
 - Address Management: Added a button to allow users to add a new address. If no address is found, a "No address found" message is displayed.
 - Backend Endpoint: Developed an API endpoint to send user data, including the profile photo, name, email, and address information.
+
+# Milestone 21: Enhancing User Profile and Adding Address Management
+
+In this milestone, you developed a backend API to send user data via email and a frontend profile page to display the user’s profile, including their photo, name, email, and addresses.
+
+## Key Achievements
+- Backend API: Created an endpoint (/api/userProfile) that fetches user data and sends it via email using Nodemailer.
+- Frontend Profile Page: Designed a page to display the user’s profile information, handle empty addresses, and include an "Add Address" button.
+- Dynamic Data Handling: Populated the frontend with user data fetched from the backend and ensured it responds to the presence or absence of addresses.
