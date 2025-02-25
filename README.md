@@ -262,11 +262,11 @@ In this milestone, we focused on building the frontend UI for the user profile p
 - Address Management: Added a button to allow users to add a new address. If no address is found, a "No address found" message is displayed.
 - Backend Endpoint: Developed an API endpoint to send user data, including the profile photo, name, email, and address information.
 
-# Milestone 21: Enhancing User Profile and Adding Address Management
+# Milestone 21: Create Address Input Form for User Profile
 
-In this milestone, you developed a backend API to send user data via email and a frontend profile page to display the user’s profile, including their photo, name, email, and addresses.
+In this milestone, you will create a form for users to input their address details, including country, city, address1, address2, zip code, and address type. When the "Add Address" button is clicked on the profile page, users will be navigated to this form to add their address.
 
-## Key Achievements
-- Backend API: Created an endpoint (/api/userProfile) that fetches user data and sends it via email using Nodemailer.
-- Frontend Profile Page: Designed a page to display the user’s profile information, handle empty addresses, and include an "Add Address" button.
-- Dynamic Data Handling: Populated the frontend with user data fetched from the backend and ensured it responds to the presence or absence of addresses.
+## Key Achievements:
+- Address Input Form: Created a form with necessary fields for address details.
+- State Management: Managed form data using state.
+- Navigation: Enabled navigation from profile to address form.
