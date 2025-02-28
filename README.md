@@ -290,3 +290,14 @@ In Milestone, we will implement the functionality to place an order by selecting
 - Select Address Page: Create a page that displays all available addresses for the user and allows selecting one for delivery.
 - Backend Endpoint: Write an endpoint to fetch and send all the user's addresses from the database.
 - Order Schema: Create a Mongoose schema to store order details in the database.
+
+# Milestone 24 Overview: Order Confirmation Page
+
+In Milestone 24, we will create an order confirmation page that displays the products being ordered, the selected delivery address, and the total price details.
+
+## Key Achievements:
+Display Ordered Products: Show all the products the user is ordering on the confirmation page.
+Display Selected Address: Show the address the user selected for delivery.
+Show Total Price: Display the total value of the cart, including any applicable pricing details.
+Place Order Button: Add a "Place Order" button at the bottom to finalize the order.
+
