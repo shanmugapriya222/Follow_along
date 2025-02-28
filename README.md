@@ -270,3 +270,23 @@ In this milestone, you will create a form for users to input their address detai
 - Address Input Form: Created a form with necessary fields for address details.
 - State Management: Managed form data using state.
 - Navigation: Enabled navigation from profile to address form.
+
+# Milestone 22: Storing Address in User Profile
+
+Create a backend endpoint that saves a user's address inside their profile in the database.
+
+## Key Achievements:
+- Create Backend Endpoint: Set up an endpoint to receive the address from the frontend.
+- Update User Profile: Add the received address to the address array in the user's database profile.
+- Handle Responses: Send success or error responses based on the operation's outcome.
+- Testing & Validation: Ensure the address is correctly added to the user profile and test using tools like Postman.
+
+# Milestone 23 Overview: Place Order and Address Selection
+
+In Milestone, we will implement the functionality to place an order by selecting a delivery address. This will involve adding a "Place Order" button on the cart page, creating an address selection page, and writing the backend schema to store order details.
+
+## Key Achievements:
+- Place Order Button: Add a "Place Order" button inside the cart page that navigates to the address selection page.
+- Select Address Page: Create a page that displays all available addresses for the user and allows selecting one for delivery.
+- Backend Endpoint: Write an endpoint to fetch and send all the user's addresses from the database.
+- Order Schema: Create a Mongoose schema to store order details in the database.
