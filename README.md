@@ -320,3 +320,13 @@ In this milestone, you'll create a backend endpoint to fetch all orders for a sp
 - Retrieve User ID: Fetch the user's _id from the database using their email.
 - Fetch User Orders: Use the _id to get all orders linked to the user.
 - Send Response: Return the complete list of the user's orders in the API response.
+
+# Milestone 27: Create Frontend Page for User Orders
+
+In this milestone, you'll create a My Orders page to display all the user's orders by fetching data from the backend.
+
+## Key Achievements:
+- Create My Orders Page: Build a new page to show user orders.
+- Fetch User Orders: Send a GET request to the /my-orders endpoint with the user's email.
+- Display Orders: Render the list of user orders on the page.
+- Add to Navbar: Include a My Orders link in the navigation for easy access.
