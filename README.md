@@ -310,3 +310,13 @@ We will develop a backend API endpoint to place orders by storing order details 
 - Retrieve User ID – Fetch _id using the user’s email.
 - Separate Orders for Each Product – Each product is stored as a unique order with the same address.
 - Save to MongoDB – Store order details in the orders collection.
+
+# Milestone 26: Create Backend Endpoint for User Orders
+
+In this milestone, you'll create a backend endpoint to fetch all orders for a specific user using their email address.
+
+## Key Achievements:
+- Create an API Endpoint: Accept the user's email as input.
+- Retrieve User ID: Fetch the user's _id from the database using their email.
+- Fetch User Orders: Use the _id to get all orders linked to the user.
+- Send Response: Return the complete list of the user's orders in the API response.
