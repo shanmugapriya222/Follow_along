@@ -330,3 +330,13 @@ In this milestone, you'll create a My Orders page to display all the user's orde
 - Fetch User Orders: Send a GET request to the /my-orders endpoint with the user's email.
 - Display Orders: Render the list of user orders on the page.
 - Add to Navbar: Include a My Orders link in the navigation for easy access.
+
+# Milestone 28: Add Cancel Order Feature
+
+In this milestone, you'll enhance the My Orders page by allowing users to cancel their orders and create a backend endpoint to handle the cancellation.
+
+## Key Achievements:
+- Add Cancel Button: Display a Cancel Order button for each active order.
+- Hide for Canceled Orders: Ensure the button is not shown if the order is already canceled.
+- Create Cancel Endpoint: Build a POST endpoint to receive the order-id and update the order status to "canceled".
+- Update Order Status: Save the updated order status in the database.
