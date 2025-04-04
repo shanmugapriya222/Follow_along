@@ -380,3 +380,13 @@ In this milestone, you'll build upon the Redux setup from the previous lesson by
 - Retrieved the email in other components using useSelector
 - Strengthened understanding of Redux hooks (useDispatch & useSelector)
 - Successfully implemented cross-page state access using Redux
+
+# Milestone 33: Creating and Storing JWT Tokens in Cookies
+
+In this milestone, you'll learn how to generate a JWT (JSON Web Token) and securely store it in a browser cookie. This is an essential step in implementing authentication for modern web applications, enabling secure user sessions and protected routes.
+
+## Key Achievements
+- Installed and used the jsonwebtoken package
+- Generated a JWT token using the sign method with user email and ID
+- Set an expiration time for the token using maxAge
+- Stored the JWT token in the browser using cookies in the response
