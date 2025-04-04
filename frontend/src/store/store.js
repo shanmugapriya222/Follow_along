@@ -1,29 +1,25 @@
-// store.js
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore } from "@reduxjs/toolkit";
 
-// 1. Define initial state for user
 const initialUserState = {
-    email: '',
+    email:""
 };
 
-// 2. Create the user reducer
+// 2.) create the user reducer 
+
 const userReducer = (state = initialUserState, action) => {
     switch (action.type) {
-        case 'SET_EMAIL':
-            return {
-                ...state,
-                email: action.payload,
-            };
+        case "SET_EMAIL":
+            return { ...state, email: action.payload };
         default:
             return state;
     }
 };
 
-// 3. Create and export the store using Redux Toolkit
+
+// 3.) create and export the store using redux toolkit
 const store = configureStore({
     reducer: {
         user: userReducer,
     },
 });
-
 export default store;

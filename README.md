@@ -370,3 +370,13 @@ In this milestone, you'll learn how to use Redux for managing global state in a 
 - Implemented a userReducer to store and update the email state
 - Defined an action (setEmail) to update the global email state
 - Wrapped the App component with Provider to enable global access
+
+# Milestone 32: Storing and Accessing Email in Global State with Redux
+
+In this milestone, you'll build upon the Redux setup from the previous lesson by storing the user's email in the global state from the Login page and accessing it across all other pages using Redux hooks. This will help you understand how to manage and utilize shared state effectively in a React application.
+
+## Key Achievements
+- Used dispatch to store the user's email in the Redux state from the Login page
+- Retrieved the email in other components using useSelector
+- Strengthened understanding of Redux hooks (useDispatch & useSelector)
+- Successfully implemented cross-page state access using Redux
