@@ -349,3 +349,13 @@ In this milestone, you'll set up a PayPal payment gateway to offer online paymen
 - Set Up PayPal Account: Create a PayPal Developer account and access sandbox credentials (UserID and Client ID).
 - Add Payment Options: Include radio buttons on the order confirmation page to choose between COD and Online Payment.
 - Prepare for PayPal Integration: Ensure PayPal buttons are displayed when the Online Payment option is selected.
+
+# Milestone 30: Integrating Online Payments with PayPal API
+
+In this milestone, you’ll learn how to integrate an online payment gateway into your application using the PayPal API. This builds on Milestone 29, where you created a PayPal Sandbox account and obtained your Client ID. You’ll use the react-paypal-js package to display payment options and enable secure transactions.
+
+## Key Achievements
+- Understood the basics of PayPal API for payment integration
+- Integrated PayPal online payments using your Client ID
+- Installed and used react-paypal-js for easy integration
+- Enabled support for payment methods like credit/debit cards
