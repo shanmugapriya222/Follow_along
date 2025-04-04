@@ -359,3 +359,14 @@ In this milestone, you’ll learn how to integrate an online payment gateway int
 - Integrated PayPal online payments using your Client ID
 - Installed and used react-paypal-js for easy integration
 - Enabled support for payment methods like credit/debit cards
+
+# Milestone 31: Implementing Global State Management with Redux
+
+In this milestone, you'll learn how to use Redux for managing global state in a React application. You'll set up a Redux store, configure reducers, and create actions to manage the user’s email state. This foundation will help in handling global state efficiently across the entire application.
+
+## Key Achievements
+- Installed and set up react-redux for state management
+- Created a Redux store to manage global states
+- Implemented a userReducer to store and update the email state
+- Defined an action (setEmail) to update the global email state
+- Wrapped the App component with Provider to enable global access
